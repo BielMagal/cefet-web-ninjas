@@ -1,0 +1,95 @@
+p {
+  font-family: "Courier New";
+  text-align: justify;   /* left, right, justify */
+}
+
+body {
+  /* imagem de fundo para a página */
+  background-image: url(../img/fundo.jpeg);
+  /* faz o conteúdo da página começar a 10%
+    da largura lateralmente */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 690px;
+  color: white;   /* cor do texto: marrom */
+}
+
+/* muda a cor de todos <h1></h1> e <h2></h2> */
+h1{
+  font-family: "Courier New";
+  color: silver;   /* cor do texto: marrom */
+  font-size: 28px;
+  text-align: center;   /* left, right, justify */
+}
+h2 {
+  font-family: "Courier New";
+  color: silver;   /* cor do texto: marrom */
+  font-size: 24px;
+  text-align: center;   /* left, right, justify */
+}
+
+table {
+  /* tira espaço entre as bordas */
+  border-collapse: collapse;
+  font-family: "Times New Roman";
+
+  /* centraliza a tabela e define uma largura */
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid silver;
+}
+
+td, th {
+  border: 2px solid silver;
+}
+
+blockquote, q{
+  font-style: italic;
+  text-align: justify;   /* left, right, justify */
+}
+
+.logo{
+  width: 200px;
+}
+
+img, iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+a:link{
+  color: yellow;
+  font-style: normal;
+} /* um link que nunca foi visitado */
+a:visited{
+  color: green;
+  font-style: normal;
+} /* um link que o usuário já visitou */
+a:hover{
+  color: gold;
+  text-decoration: none;
+  font-style: italic;
+} /* um link quando o mouse está em cima dele */
+a:active{
+  color: red;
+  font-style: normal;
+} /* um link no momento em que é "clicado" */
+
+a.externo{
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.notas{
+  filter: contrast(0.3);
+}
+
+strong{
+  background-color: #0404B4;
+  font-size: 30px;
+  color: silver ;
+}
